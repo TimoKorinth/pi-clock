@@ -24,8 +24,51 @@ body {
     height: 100%;
     background: #DB5B0C;
     opacity: 1;
+}
+
+.piAtom.one {
     -webkit-transition: all linear 1s;
-  transition: all linear 1s;
+    transition: all linear 1s;
+}
+
+.piAtom.two {
+    -webkit-transition: all linear 2s;
+    transition: all linear 2s;
+}
+
+.piAtom.three {
+    -webkit-transition: all linear 3s;
+    transition: all linear 3s;
+}
+
+.piAtom.four {
+    -webkit-transition: all linear 4s;
+    transition: all linear 4s;
+}
+
+.piAtom.five {
+    -webkit-transition: all linear 5s;
+    transition: all linear 5s;
+}
+
+.piAtom.six {
+    -webkit-transition: all linear 6s;
+    transition: all linear 6s;
+}
+
+.piAtom.seven {
+    -webkit-transition: all linear 7s;
+    transition: all linear 7s;
+}
+
+.piAtom.eight {
+    -webkit-transition: all linear 8s;
+    transition: all linear 8s;
+}
+
+.piAtom.nine {
+    -webkit-transition: all linear 9s;
+    transition: all linear 9s;
 }
 
 .piAtom.ng-hide {
