@@ -11,9 +11,9 @@
                     atom: '=?',
                     tick: '=?'
                 },
-                template: '<div>Atom: {{atom}}, Tick: {{tick}}, isVisible: {{isVisible}}</div>',
+                template: '<div class="piAtomWrapper"><div class="piAtom" ng-show="isVisible"></div></div>',
                 link: function (scope, element, attrs) {
-                                        
+                    
                     scope.$watch('tick', function (newTick) {
                         scope.isVisible = newTick % scope.atom === 0 ? !scope.isVisible: scope.isVisible;
                     });
