@@ -10,6 +10,7 @@
     <body>
         <div ng-controller="mainController as vm" class="piClock">
             <pi-atom ng-repeat="atom in vm.piArray track by $index" atom="atom" tick="vm.tick"></pi-atom>
+            <a class="credit" href="https://github.com/TimoKorinth/pi-clock">@TimoKorinth</a>
         </div>
     </body>
 </html>

@@ -1,1 +1,1 @@
-# pi-clock
+# π clock
