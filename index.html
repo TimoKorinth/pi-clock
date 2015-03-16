@@ -1,0 +1,16 @@
+<!doctype html>
+<html ng-app="piClock">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-beta.5/angular.min.js"></script>
+        <script src="app.js"></script>
+        <script src="piAtom.js"></script>
+        
+        <link rel="stylesheet" href="piClock.css">
+    </head>
+    <body>
+        <div ng-controller="mainController as vm" class="piClock">
+            <pi-atom ng-repeat="atom in vm.piArray track by $index" atom="atom" tick="vm.tick"></pi-atom>
+            <a class="credit" href="https://github.com/TimoKorinth/pi-clock">@TimoKorinth</a>
+        </div>
+    </body>
+</html>
